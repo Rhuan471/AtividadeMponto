@@ -9,7 +9,6 @@ public class Main {
         arv.imprimirNiveis();
         System.out.println("Árvore desbalanceada? " + arv.estaDesbalanceada());
 
-        // Inserir para desbalancear
         arv.inserir(10);
         arv.inserir(5);
         arv.imprimirNiveis();
